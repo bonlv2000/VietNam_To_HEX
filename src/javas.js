@@ -92,3 +92,9 @@ function convertTextToHex() {
     toastr.info("Hãy nhập tiếng Việt");
   }
 }
+
+function selectInputVN() {
+  try {
+    $("#textfirst").select();
+  } catch (error) {}
+}
